@@ -1,0 +1,13 @@
+[package]
+name = "korrode"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rayon = "1.8"
+sha2 = "0.10"
+md5 = "0.7"
+bcrypt = "0.13"
+hex = "0.4"
+zeroize = "1.6"
+memmap2 = "0.7" # optional for large wordlists
