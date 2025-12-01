@@ -2,6 +2,13 @@
 ### **Fast Bcrypt / MD5 / SHA‑256 Cracker (Rust)**
 *A tiny command‑line utility written in Rust that can:*
 
+korrode is released for EDUCATIONAL and AUTHORIZED security testing purposes only.
+
+By using this software you agree:
+• You will only test systems you own or have explicit permission to test
+• You will not use it for any illegal or unauthorized activity
+• The authors are not responsible for misuse
+
 Verify bcrypt hashes (any cost factor)
 Crack MD5 and SHA‑256 hashes
 Run dictionary attacks or numeric brute‑force in parallel (Rayon)
