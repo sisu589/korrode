@@ -4,7 +4,8 @@ mod hashers;
 mod sources;
 
 use hashers::Algo;
-use std::{arch::x86_64::_MM_FROUND_TO_NEAREST_INT, env};
+use std::env;
+/// #[warn(unused_imports)] on by default
 
 fn print_usage() {
     eprintln!(
@@ -64,6 +65,6 @@ fn main() {
     // *** --- Output --- ***
     match result {
         Some(pw) => println!("PASSWORD FOUND: {}", pw),
-        None => println!("NO MATCH FOUND. Update candidate space.")
+        None => println!("NO MATCH FOUND. Update candidate space."),
     }
 }
